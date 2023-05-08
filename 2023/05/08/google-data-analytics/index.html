@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="大學, 學習, 讀書, 成長">
+    
+    <meta name="author" content="Jeremy H.">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="http://studywithjeremy.github.io/2023/05/08/google-data-analytics/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+        <meta name="description" content="Google Data Analytics是Google在Coursera雲端教學平台上開設的網路課程，這堂課跟其他 Google 課程一樣，標榜不用任何相關經驗就可以完成，官方建議一週上課 10 小時，6 個月可以上完。完成後可以拿到 Google Data Analytics Certification 證書。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Google Data Analytics 課程心得：數據分析入門的最佳途徑">
+<meta property="og:url" content="http://studywithjeremy.github.io/2023/05/08/google-data-analytics/index.html">
+<meta property="og:site_name" content="Study With Jeremy | 傑洛米的學習手札">
+<meta property="og:description" content="Google Data Analytics是Google在Coursera雲端教學平台上開設的網路課程，這堂課跟其他 Google 課程一樣，標榜不用任何相關經驗就可以完成，官方建議一週上課 10 小時，6 個月可以上完。完成後可以拿到 Google Data Analytics Certification 證書。">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="http://studywithjeremy.github.io/images/da.jpeg">
+<meta property="article:published_time" content="2023-05-08T10:29:00.000Z">
+<meta property="article:modified_time" content="2023-05-08T10:44:34.103Z">
+<meta property="article:author" content="Jeremy H.">
+<meta property="article:tag" content="認證">
+<meta property="article:tag" content="資工">
+<meta property="article:tag" content="Coursera">
+<meta property="article:tag" content="Google">
+<meta property="article:tag" content="資料科學">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://studywithjeremy.github.io/images/da.jpeg">
+    
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/logo_small.png" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/logo_small.png">
+    <meta name="theme-color" content="#A31F34">
+    <link rel="shortcut icon" href="/images/logo_small.png">
+    <!--- Page Info-->
+    
+    <title>
+        
+            Google Data Analytics 課程心得：數據分析入門的最佳途徑 -
+        
+        Study With Jeremy
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+<link rel="stylesheet" href="/assets/fonts.css">
+
+    <!--- Font Part-->
+    
+    
+    
+    
+
+    <!--- Inject Part-->
+    
+    <script id="hexo-configurations">
+    let Global = window.Global || {};
+    Global.hexo_config = {"hostname":"studywithjeremy.github.io","root":"/","language":"zh-TW","path":"search.xml"};
+    Global.theme_config = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":[]},"code_block":{"copy":true,"style":"mac","font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":true,"lazyload":true,"recommendation":{"enable":false,"title":"推薦閱讀","limit":3,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#A31F34","secondary":null},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":false},"scroll_progress":{"bar":false,"percentage":true},"busuanzi_counter":{"enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"pjax":true,"open_graph":true,"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"static","image":{"light":"/images/wallhaven-wqery6-light.webp","dark":"/images/wallhaven-wqery6-dark.webp"},"title":"Study With Jeremy","subtitle":{"text":["Study Harder","Study Smarter"],"hitokoto":{"enable":false,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":"enable","links":{"github":"https://github.com/itsjeremyhsieh","instagram":"https://www.instagram.com/studywithjeremy","email":"jeremy.life0107@gmail.com"}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}},"version":"2.1.3","navbar":{"auto_hide":false,"color":{"left":"#f78736","right":"#367df7","transparency":35},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"Archives":{"path":"/archives","icon":"fa-regular fa-archive"},"About":{"icon":"fa-regular fa-user","path":"https://itsjeremyhsieh.github.io"}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"info","announcement":null,"links":{"Archives":{"path":"/archives","icon":"fa-regular fa-archive"},"Tags":{"path":"/tags","icon":"fa-regular fa-tags"},"Categories":{"path":"/categories","icon":"fa-regular fa-folder"}}},"article_date_format":"YYYY-MM-DD","categories":{"enable":true,"limit":10},"tags":{"enable":true,"limit":10}}};
+    Global.language_ago = {"second":"%s 秒前","minute":"%s 分鐘前","hour":"%s 小時前","day":"%s 天前","week":"%s 周前","month":"%s 個月前","year":"%s 年前"};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <span class="pjax-progress-icon">
+            <i class="fa-solid fa-circle-notch fa-spin"></i>
+        </span>
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="main-content-container">
+
+        <div class="main-content-header">
+            <header class="navbar-container">
+    
+    <div class="navbar-content">
+        <div class="left">
+            
+            <a class="logo-title" href="/">
+                
+                Study With Jeremy
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    href="/"  >
+                                    
+                                        
+                                            <i class="fa-regular fa-house"></i>
+                                        
+                                        首頁
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    href="/archives"  >
+                                    
+                                        
+                                            <i class="fa-regular fa-archive"></i>
+                                        
+                                        歸檔
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    target="_blank" rel="noopener" href="https://itsjeremyhsieh.github.io"  >
+                                    
+                                        
+                                            <i class="fa-regular fa-user"></i>
+                                        
+                                        關於
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i></div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div class="navbar-drawer">
+        <ul class="drawer-navbar-list">
+            
+                
+                    <li class="drawer-navbar-item flex-center">
+                        <a class="" 
+                        href="/"  >
+                             
+                                
+                                    <i class="fa-regular fa-house"></i>
+                                
+                                首頁
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+                
+                    <li class="drawer-navbar-item flex-center">
+                        <a class="" 
+                        href="/archives"  >
+                             
+                                
+                                    <i class="fa-regular fa-archive"></i>
+                                
+                                歸檔
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+                
+                    <li class="drawer-navbar-item flex-center">
+                        <a class="" 
+                        target="_blank" rel="noopener" href="https://itsjeremyhsieh.github.io"  >
+                             
+                                
+                                    <i class="fa-regular fa-user"></i>
+                                
+                                關於
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="main-content-body">
+
+            
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            
+                      
+                <div class="article-title">
+                    <img src="/images/coursera_google.png" alt="Google Data Analytics 課程心得：數據分析入門的最佳途徑" />
+                    <h1 class="article-title-cover">Google Data Analytics 課程心得：數據分析入門的最佳途徑</h1>
+                </div>
+            
+                
+            
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="/images/avatar.jpg">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">Jeremy H.</span>
+                            
+                                <span class="author-label">Lv1</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2023-05-08 18:29</span>
+        <span class="mobile">2023-05-08 18:29</span>
+        <span class="hover-info">撰寫</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2023-05-08 18:44:34</span>
+            <span class="mobile">2023-05-08 18:44</span>
+            <span class="hover-info">更新</span>
+        </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/categories/%E8%AA%8D%E8%AD%89/">認證</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E8%AA%8D%E8%AD%89/">認證</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E8%B3%87%E5%B7%A5/">資工</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/Coursera/">Coursera</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/Google/">Google</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E8%B3%87%E6%96%99%E7%A7%91%E5%AD%B8/">資料科學</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content markdown-body">
+                <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Google Data Analytics是Google在Coursera雲端教學平台上開設的網路課程，這堂課跟其他 Google 課程一樣，標榜不用任何相關經驗就可以完成，官方建議一週上課 10 小時，6 個月可以上完。完成後可以拿到 Google Data Analytics Certification 證書。</p>
+<h1 id="課程說明"><a href="#課程說明" class="headerlink" title="課程說明"></a>課程說明</h1><h2 id="我的證書"><a href="#我的證書" class="headerlink" title="我的證書"></a>我的證書</h2><p>正式開始文章之前，先放上我的Google Data Analytics課程證書~</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/da.jpeg"
+                      alt="我的Google Data Analytics 認證" title="我的Google Data Analytics 認證"
+                ></p>
+<h2 id="資料分析是什麼"><a href="#資料分析是什麼" class="headerlink" title="資料分析是什麼"></a>資料分析是什麼</h2><p>資料分析近年來逐漸成為熱門的學問，資料分析師（Data Analyst）也是越來越多人會去追求的職業。根據網站salaryexployer.com的資料顯示，資料分析師在美國的平均年薪約為87,200美元，依照經歷與年資，年薪範圍為41,800（最低）~137,000（最高）美元。2022年，美國人年薪的中位數為$54,132，不難看出資料分析師熱門的原因。<br><br>不同於傳統職業容易受限於產業類別的特性，基本上，每家大企業都需要一定數量的資料分析師。資料分析師的工作簡略而言是從收集到的數據中提煉出對公司有益的發現與趨勢，進而為公司提出建議與方針。資料分析師可說是一家公司的國師，因此企業願意付高薪聘請也是情有可原。</p>
+<h2 id="課程安排"><a href="#課程安排" class="headerlink" title="課程安排"></a>課程安排</h2><p>Google Data Analytics課程分為8大課程，分別是</p>
+<ul>
+<li>Foundations</li>
+<li>Ask</li>
+<li>Prepare</li>
+<li>Process</li>
+<li>Analyze</li>
+<li>Share</li>
+<li>R Programming</li>
+<li>Capstone Case Study<br>
+每個課程（course）皆有3~6個模組（module），每個模組皆有多個區塊（section），Google的課程安排是每周完成一個section，但實際操作下來，大概半個小時~一個小時便可以完成一個section。完成每個區塊後，便完成該模組；完成所有模組後，就可以完成該課程；而完成這八個課程後，就可以順利拿到結業證書了~</li>
+</ul>
+<p>每個區塊的最後，都會有一個practice quiz，用來測驗你對該區塊知識的理解，全選擇題，會有單選和複選。而且因為是practice quiz，所以你想做多少次都可以。而每個模組的最後都會有一個Weekly Graded Quiz，這個測驗的分數會計算到每個課程的最終成績，不同於practice quiz, graded quiz會有時間限制，也會有填答限制（24小時內只能填寫3次），且每次填寫的題目與選項會更動。</p>
+<h3 id="Course-1-Foundations-Data-Data-Everywhere"><a href="#Course-1-Foundations-Data-Data-Everywhere" class="headerlink" title="Course 1: Foundations: Data, Data, Everywhere"></a>Course 1: Foundations: Data, Data, Everywhere</h3><p>在第一個課程中，講者會先介紹這個系列課程的目的、規劃以及最重要的，資料分析的流程。這個流程也是之後課程系列的名稱，</p>
+<p>Ask -&gt; Prepare -&gt; Process -&gt; Analyze -&gt; Share -&gt; Act</p>
+<p>一個完整的資料分析，需要先從定義問題開始，你的資料分析結果，最多只會跟你所定義的問題一樣好，所以定義問題是至關重要的。</p>
+<p>這堂課程也會介紹一些資料分析相關的專有名詞，像是Data Driven Decision Making等等，這些專有名詞的定義建議可以寫下來，後面的Practice Quiz常常考專有名詞解釋。</p>
+<p>第一堂課也有提到資料工程師的工作內容，也會請Google內部的資料工程師來分享他們的心路歷程，可以讓初入資料分析的初學者們衡量自己是否對該課程與領域有興趣。</p>
+<p>第一堂課程因為是入門概論，內容相對簡單，也可以對數據分析有基本認識。但建議不要因為是基礎中的基礎，打穩這些基礎以及資料分析SOP對於後面的學習和case study會有許多幫助。</p>
+<h3 id="Course-2-Ask-Questions-to-Make-Data-Driven-Decisions"><a href="#Course-2-Ask-Questions-to-Make-Data-Driven-Decisions" class="headerlink" title="Course 2: Ask Questions to Make Data-Driven Decisions"></a>Course 2: Ask Questions to Make Data-Driven Decisions</h3><p>這門課開始，就進入到正式的資料分析SOP過程了。</p>
+<p>第二堂課會先介紹一些資料分析師常用的工具，包含：Spreadsheet、Query Language與 Data Visualization工具。初步介紹上述3種工具的用途與範例。也會教你如何問出有效的問題，像是SMART技巧就很實用，也會告訴你問問題要問開放式問題、不能有偏頗或試圖引導特定答案等。</p>
+<p>這堂課程使用到的試算表都是Google Sheet，因此建議如果沒有Google帳號的話，可以申請一個來使用。</p>
+<h3 id="Course-3-Prepare-Data-for-Exploration"><a href="#Course-3-Prepare-Data-for-Exploration" class="headerlink" title="Course 3: Prepare Data for Exploration"></a>Course 3: Prepare Data for Exploration</h3><p>邁入第三堂課，這堂課中將會教你如何收集資料，也會介紹資料型態、資料格式等。這堂課也特別強調數據倫理(Ethics)、及數據的可信度評估。</p>
+<p>第三堂課，終於可以用到SQL語法了。這堂課使用的工具是Google自身的BigQuery，會練習基本的SQL語法，但由於免費版帳戶的限制，BigQuery上的資料不允許新增、修改、刪除等，也就是說，只能使用基本的SELECT FROM WHERE語法。</p>
+<h3 id="Course-4-Process-Data-from-Dirty-to-Clean"><a href="#Course-4-Process-Data-from-Dirty-to-Clean" class="headerlink" title="Course 4: Process Data from Dirty to Clean"></a>Course 4: Process Data from Dirty to Clean</h3><p>課程進行到一半了！在第四堂課中，會教你如何預處理你所收集到的資料。</p>
+<p>在上一階段收集的資料並不能保證一定是乾淨的。其中可能會有一些常見的錯誤需要排除，常見的錯誤有</p>
+<ul>
+<li>不該出現的null值</li>
+<li>Outlier</li>
+<li>重複數據</li>
+<li>打字錯誤<br>這些都是衡量Data Integrity 數據完整性的一部分，要排除這些，就必須用到Data Cleaning 資料清理的技術，也會教你 Data Validation。這堂課中，會介紹如何用SQL與Spreadsheet清理你的資料，當然Spreadsheet只適用清理小型資料庫，一旦資料庫內容大起來，光瀏覽資料就足以讓你的電腦當機，這時候還是乖乖用SQL好了。</li>
+</ul>
+<p>對於初入這領域的初學者而言，這堂課可能會出現許多沒看過的Spreadsheet和SQL語法，建議每個語法都可以自行嘗試操作看看，可以增加印象。</p>
+<h3 id="Course-5-Analyze-Data-to-Answer-Questions"><a href="#Course-5-Analyze-Data-to-Answer-Questions" class="headerlink" title="Course 5: Analyze Data to Answer Questions"></a>Course 5: Analyze Data to Answer Questions</h3><p>進到第五堂課，重頭戲終於來了！</p>
+<p>你會開始學習分析資料的技巧與流程，也會學到如何用Spreadsheet與SQL讓你的數據便於分析（像是排序、統整格式、篩選等語法），也會教你SQL的Join語法以及Spreadsheet的Vlookup函數。分析部分，會提到Pivot Table的應用與範例。</p>
+<p>可能有些學生會覺得這堂課的深度不夠，不用擔心，在第七堂課會教你R語言，將前面提到的過程再全部用R語言走過一次。</p>
+<h3 id="Course-6-Share-Data-Through-the-Art-of-Visualization"><a href="#Course-6-Share-Data-Through-the-Art-of-Visualization" class="headerlink" title="Course 6: Share Data Through the Art of Visualization"></a>Course 6: Share Data Through the Art of Visualization</h3><p>分析完數據，我們找到了有助於解決問題的規律和發現，我們要想辦法讓這些發現變得讓人容易理解，這時就會用到數據視覺化（data visualization）技巧。這堂課會用到Tableau，一個數據視覺化的軟體，也會教你如何用數據說故事、如何完成有效的簡報以及如何準備及回答報告後的 Q&amp;A 環節。</p>
+<p>不得不說，這堂課提出的一些報告小技巧十分實用，無論什麼主題的報告，都可以應用這些技巧，讓你的報告軟實力更上一層樓。</p>
+<h3 id="Course-7-Data-Analysis-with-R-Programming"><a href="#Course-7-Data-Analysis-with-R-Programming" class="headerlink" title="Course 7: Data Analysis with R Programming"></a>Course 7: Data Analysis with R Programming</h3><p>這堂課算是我覺得裡面8堂課中，最專業的一堂。資訊量有點多，課程會教你一個程式語言 - R，並且從資料預處理、資料清理開始，一直到資料視覺化。簡言之，你會學到一大多語法，對於沒有學過程式語言的同學可能會有點之力，但就像影片中講師提到的，慢慢來，這些影片都可以重複觀看，也有Discussion Prompt論壇可以讓同學提問，也可以上網找R語言的CheatSheet。</p>
+<h3 id="Course-8-Google-Data-Analytics-Capstone-Complete-a-Case-Study"><a href="#Course-8-Google-Data-Analytics-Capstone-Complete-a-Case-Study" class="headerlink" title="Course 8: Google Data Analytics Capstone: Complete a Case Study"></a>Course 8: Google Data Analytics Capstone: Complete a Case Study</h3><p>學習完資料分析的基礎知識及流程後，就該你上場啦！</p>
+<p>這堂課中會給你三個選擇：從2個課程提供的主題中擇一研究或自行尋找主題研究。我選擇的是使用課程提供的，關於較踏車租借公司的主題研究。</p>
+<p>其實，這個case study並不是強制一定要做的，如果你不想做，也可以選擇跳過，直接完成課程拿到認證。但既然都已經花時間上課了，最後給自己一個驗證所學的機會不是很棒嗎？完成自己的case study後，課程會教你如何製作履歷（portfolio），提供一些tips，以及如何把你的case study放進你的履歷。</p>
+<p>課程的最後，也會提供一些面試的技巧，以及模擬面試的影片。和報告技巧一樣，我覺得這個部分超級有幫助的！</p>
+<p>對我來說，這門課是最花時間的一門。開始實際動手做後，才發現深入探討問題並找出解決方案並不是像上課般那麼容易。有時我會想得太複雜，難以找出下一步；又或者某一段程式碼因為缺少一個括號，變數寫錯一直無法通過。但不得不說，用心完成最終的case study真的可以獲得莫大的成就感。</p>
+<h2 id="課程優缺點"><a href="#課程優缺點" class="headerlink" title="課程優缺點"></a>課程優缺點</h2><p>先來說說這堂課的優點好了~~</p>
+<h3 id="課程優點"><a href="#課程優點" class="headerlink" title="課程優點"></a>課程優點</h3><ol>
+<li>課程安排充實且豐富：上課內容多是實作導向，不會過度著墨在理論知識。</li>
+<li>課程易入門且資源多：課程的定位原本就是給初學者，所以所有知識都會假設3. 上課學生沒學過，從０開始，而且又有論壇可以提出問題，過程中遇到的阻礙都可以很輕易地解決。</li>
+<li>上課時間、地點彈性：Google將課程的影片分為多個小片段，每個片段月3~10分鐘不等，加上因為是線上課程，且沒有嚴格的deadline，而且Coursera也有app，隨時都能在電腦、手機、平板上觀看。</li>
+</ol>
+<h3 id="課程缺點"><a href="#課程缺點" class="headerlink" title="課程缺點"></a>課程缺點</h3><ol>
+<li>上課時間、地點彈性：這部分我覺得可以是優點、也可以是缺點。對於那些想認真上課的學生而言，這無疑是一大方便，但對於自制力不佳、容易虎頭蛇尾的學生，很有可能無法按時完成這些課程。</li>
+<li>按月收費：Coursera每個月會收取39美元的訂閱費，也就是說，你上多久，平台就收你多久的費用。但這可能會讓部分學生上得很有壓力，或是為了盡快完成課程、拿到證書而草草了事，反而得不償失。</li>
+<li>資源過多：上課資源豐富固然是好事，但由於上課學生很多，測驗的題目基本上整題複製到Google上查詢，十之八九可以找到正確解答。部分投機的學生可能會用這種方式來完成所有測驗可能會讓這張證照的公信力下降。</li>
+</ol>
+<h2 id="課程適合對象"><a href="#課程適合對象" class="headerlink" title="課程適合對象"></a>課程適合對象</h2><p>如果你是以下其中一位，那這門Google Data Analytics課程就很適合你</p>
+<ul>
+<li><p>想試試看資料分析的初學者</p>
+</li>
+<li><p>無意間得知Coursera平台，還沒上過課的人</p>
+</li>
+<li><p>想拿到一張證照，但又不知從何準備的人</p>
+</li>
+<li><p>希望可以多多學習的人<br> 想要增加學習經驗與side project的人</p>
+</li>
+<li><p>自認為英文能力不錯，想體驗全英授課的人<br>但如果你是以下幾種人，就不太推薦你上這門課</p>
+</li>
+<li><p>平常已經很忙，沒有額外時間的人</p>
+</li>
+<li><p>對於資料分析已經很進階的人</p>
+</li>
+<li><p>經濟不允許每月多1200台幣開銷的人</p>
+</li>
+<li><p>只想拿證照，不想學習的人</p>
+</li>
+</ul>
+<h1 id="總結"><a href="#總結" class="headerlink" title="總結"></a>總結</h1><p>這堂課是我在Coursera平台上的第一堂課。老實說，我對這堂課的評價很高！雖然是入門課，但隨著課程進展，內容也會隨著加深，像是SQL語法，甚至教了一些學校沒教過的語法。這堂課中，你可以學到許多Spreadsheet函數、SQL語法、R語法及資料視覺化的工具。總言之，如果你對資料分析有興趣，想試試看的話，這系列的課程絕對是值得你一試的敲門磚。加油~~</p>
+
+            </div>
+
+            
+                <div class="post-copyright-info">
+                    <div class="article-copyright-info-container">
+    <ul>
+        <li><strong>標題:</strong> Google Data Analytics 課程心得：數據分析入門的最佳途徑</li>
+        <li><strong>作者:</strong> Jeremy H.</li>
+        <li><strong>撰寫於:</strong> 2023-05-08 18:29:00</li>
+        
+            <li>
+                <strong>更新於:</strong> 2023-05-08 18:44:34
+            </li>
+        
+        <li>
+            <strong>連結:</strong> https://studywithjeremy.github.io/2023/05/08/google-data-analytics/
+        </li>
+        <li>
+            <strong>版權宣告:</strong> 本作品採用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a> 進行許可。
+        </li>
+    </ul>
+</div>
+
+                </div>
+            
+
+            
+                <ul class="post-tags-box">
+                    
+                        <li class="tag-item">
+                            <a href="/tags/%E8%AA%8D%E8%AD%89/">#認證</a>&nbsp;
+                        </li>
+                    
+                        <li class="tag-item">
+                            <a href="/tags/%E8%B3%87%E5%B7%A5/">#資工</a>&nbsp;
+                        </li>
+                    
+                        <li class="tag-item">
+                            <a href="/tags/Coursera/">#Coursera</a>&nbsp;
+                        </li>
+                    
+                        <li class="tag-item">
+                            <a href="/tags/Google/">#Google</a>&nbsp;
+                        </li>
+                    
+                        <li class="tag-item">
+                            <a href="/tags/%E8%B3%87%E6%96%99%E7%A7%91%E5%AD%B8/">#資料科學</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            
+
+            
+
+            
+                <div class="article-nav">
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                            rel="next"
+                            href="/2023/05/08/hello-world/"
+                            >
+                                <span class="title flex-center">
+                                    <span class="post-nav-title-item">Hello World!</span>
+                                    <span class="post-nav-item">下一篇</span>
+                                </span>
+                                <span class="right arrow-icon flex-center">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </span>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+
+            
+                <div class="comment-container">
+                    <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        <i class="fa-solid fa-comments"></i>&nbsp;留言
+    </div>
+    
+
+        
+            
+ 
+    <div id="waline"></div>
+    <script type="module"  data-pjax>
+        import { init } from 'https://evan.beee.top/js/waline.mjs';
+
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'https://example.example.com',
+                lang: 'zh-TW',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+            });
+        }
+
+        if ('true') {
+            const loadWalineTimeout = setTimeout(() => {
+                loadWaline();
+                clearTimeout(loadWalineTimeout);
+            }, 1000);
+        } else {
+            window.addEventListener('DOMContentLoaded', loadWaline);
+        }
+        
+    </script>
+
+
+
+        
+    
+</div>
+
+                </div>
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">此頁目錄</div>
+        <div class="page-title">Google Data Analytics 課程心得：數據分析入門的最佳途徑</div>
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-text">前言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%AA%B2%E7%A8%8B%E8%AA%AA%E6%98%8E"><span class="nav-text">課程說明</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E8%AD%89%E6%9B%B8"><span class="nav-text">我的證書</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90%E6%98%AF%E4%BB%80%E9%BA%BC"><span class="nav-text">資料分析是什麼</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AA%B2%E7%A8%8B%E5%AE%89%E6%8E%92"><span class="nav-text">課程安排</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Course-1-Foundations-Data-Data-Everywhere"><span class="nav-text">Course 1: Foundations: Data, Data, Everywhere</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Course-2-Ask-Questions-to-Make-Data-Driven-Decisions"><span class="nav-text">Course 2: Ask Questions to Make Data-Driven Decisions</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Course-3-Prepare-Data-for-Exploration"><span class="nav-text">Course 3: Prepare Data for Exploration</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Course-4-Process-Data-from-Dirty-to-Clean"><span class="nav-text">Course 4: Process Data from Dirty to Clean</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Course-5-Analyze-Data-to-Answer-Questions"><span class="nav-text">Course 5: Analyze Data to Answer Questions</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Course-6-Share-Data-Through-the-Art-of-Visualization"><span class="nav-text">Course 6: Share Data Through the Art of Visualization</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Course-7-Data-Analysis-with-R-Programming"><span class="nav-text">Course 7: Data Analysis with R Programming</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Course-8-Google-Data-Analytics-Capstone-Complete-a-Case-Study"><span class="nav-text">Course 8: Google Data Analytics Capstone: Complete a Case Study</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AA%B2%E7%A8%8B%E5%84%AA%E7%BC%BA%E9%BB%9E"><span class="nav-text">課程優缺點</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AA%B2%E7%A8%8B%E5%84%AA%E9%BB%9E"><span class="nav-text">課程優點</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AA%B2%E7%A8%8B%E7%BC%BA%E9%BB%9E"><span class="nav-text">課程缺點</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AA%B2%E7%A8%8B%E9%81%A9%E5%90%88%E5%B0%8D%E8%B1%A1"><span class="nav-text">課程適合對象</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%B8%BD%E7%B5%90"><span class="nav-text">總結</span></a></li></ol>
+
+    </div>
+</div>
+            </div>
+        
+    </div>
+</div>
+
+
+                
+
+            </div>
+            
+            
+
+        </div>
+
+        <div class="main-content-footer">
+            <footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info">
+            &copy;
+            
+              <span>2023</span>
+              -
+            
+            2023&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">Jeremy H.</a>
+        </div>
+        
+            <script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="website-count info-item">
+                
+                    <span id="busuanzi_container_site_uv" class="busuanzi_container_site_uv">
+                        讀者&nbsp;<span id="busuanzi_value_site_uv" class="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="busuanzi_container_site_pv">
+                        閱讀&nbsp;<span id="busuanzi_value_site_pv" class="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="theme-info info-item">
+            <span class="powered-by-container"><?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" href="https://hexo.io">Hexo</a> 框架</span>
+                <br>
+            <span class="theme-version-container">主題&nbsp;<a class="theme-version" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.1.3</a>
+        </div>
+        
+        
+        
+            <div id="start_div" style="display:none">
+                2023/5/8 15:53:00
+            </div>
+            <div>
+                部落格已運行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小時 <span class="odometer" id="runtime_minutes"></span> 分鐘 <span class="odometer" id="runtime_seconds"></span> 秒
+            </div>
+        
+        
+        
+            <script async data-pjax>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+        
+    </div>  
+</footer>
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="article-tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fa-regular fa-comments"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-side-tools-container">
+        <div class="side-tools-container">
+    <ul class="hidden-tools-list">
+        <li class="right-bottom-tools tool-font-adjust-plus flex-center">
+            <i class="fa-regular fa-magnifying-glass-plus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-font-adjust-minus flex-center">
+            <i class="fa-regular fa-magnifying-glass-minus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-expand-width flex-center">
+            <i class="fa-regular fa-expand"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-dark-light-toggle flex-center">
+            <i class="fa-regular fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="right-bottom-tools tool-scroll-to-bottom flex-center">
+            <i class="fa-regular fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="visible-tools-list">
+        <li class="right-bottom-tools toggle-tools-list flex-center">
+            <i class="fa-regular fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="right-bottom-tools tool-scroll-to-top flex-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fa-solid fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜尋..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fa-solid fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/layouts/navbarShrink.js"></script>
+
+<script src="/js/tools/scrollTopBottom.js"></script>
+
+<script src="/js/tools/lightDarkSwitch.js"></script>
+
+
+
+    
+<script src="/js/tools/localSearch.js"></script>
+
+
+
+
+    
+<script src="/js/tools/codeBlock.js"></script>
+
+
+
+
+    
+<script src="/js/layouts/lazyload.js"></script>
+
+
+
+
+    
+<script src="/js/tools/runtime.js"></script>
+
+    
+<script src="/js/layouts/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+  
+<script src="/js/libs/Typed.min.js"></script>
+
+  
+<script src="/js/plugins/typed.js"></script>
+
+
+
+
+
+
+
+
+<div class="post-scripts pjax">
+    
+        
+<script src="/js/tools/tocToggle.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
+
+<script src="/js/layouts/toc.js"></script>
+
+<script src="/js/plugins/tabs.js"></script>
+
+    
+</div>
+
+
+    
+<script src="/js/libs/pjax.min.js"></script>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        window.pjax = new Pjax({
+            selectors: [
+                'head title',
+                '.page-container',
+                '.pjax',
+            ],
+            history: true,
+            debug: false,
+            cacheBust: false,
+            timeout: 0,
+            analytics: false,
+            currentUrlFullReload: false,
+            scrollRestoration: false,
+            // scrollTo: true,
+        });
+
+        document.addEventListener('pjax:send', () => {
+            Global.utils.pjaxProgressBarStart();
+        });
+
+        document.addEventListener('pjax:complete', () => {
+            Global.utils.pjaxProgressBarEnd();
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+            Global.refresh();
+        });
+    });
+</script>
+
+
+
+
+</body>
+</html>
