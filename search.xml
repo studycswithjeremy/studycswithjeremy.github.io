@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World!!!</title>
+    <title>Hello World!</title>
     <url>/2023/05/08/hello-world/</url>
-    <content><![CDATA[<p>This is a test! Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+    <content><![CDATA[<h1 id="關於這個部落格"><a href="#關於這個部落格" class="headerlink" title="關於這個部落格"></a>關於這個部落格</h1><p>歡迎來到 <strong>Study with Jeremy | 傑洛米的學習手札</strong>。<br><br>我是Jeremy，一名資工系大三學生。 <br></p>
+<p>2021年8月，那時正值我高中畢業，等待上大學的暑期空檔，因此我嘗試找出能夠賺取被動收入的管道。最初嘗試了問卷調查，填寫問卷就可以賺取少量報酬，日積月累，每天填寫2、3分問卷，一個月也賺了500元。那是我第一次從網路上賺錢的經驗。<br></p>
+<p>但是，畢竟填寫問卷不算被動，因此我開始尋求真正的「被動收入」。不知不覺地，就產生了想開始寫部落格的想法。在發想部落格主題時，我左思右想，自己到底有什麼能夠寫出來，並且有人在乎的呢？想了想，身為學生本業的我，是不是可以將自己一路到大學的學習經驗寫出來，提供學弟妹經驗分享。因此，我開始了我的第一個網站《Study with Jeremy | 傑洛米的學習手札》的部落格站長生涯。我花了許多心思和金錢在這個網站上。除了主機的租借和網域租借費用，因為一次訂閱3年，所以就花了快5000元。那時候也是手一掐才點下購買鍵。<br></p>
+<p>Study With Jeremy 的網站 Logo<br>網站正式架好後，我便開始著手設計網站 Logo，也就是上方的這個圖片。其實我個人十分滿意這個設計，我覺得它同時具備簡約和典雅。<br></p>
+<p>最初的目的是想要賺取被動收入，因此在最剛開始時，就算每天只有0.01~0.1元，我也覺得很開心，這些數據也成為我持續寫下去的動力。<br></p>
+<p>但寫著寫著，我發現自己越來越過度在乎流量，甚至會為了流量，想方設法寫一些自己根本不沒興趣，但是卻在Google Trend上的熱門關鍵字相關文章。漸漸地，我寫文章的興致與動力變越來越小。<br></p>
+<p>其實從2021年寫到現在，我實際上收到的錢是0元。沒錯，沒賺錢就算了，還沒辦法回本。我認為這跟我沒有持續寫文章也有極大的關聯性。有時候我一個月可以產出5篇文章，但有的時候比較忙，可能隔2個月才寫出一篇文章。頂著每年都需要持續花錢租主機和網域費用的壓力（也不是付不出來，但就是不想花費無謂的費用），我漸漸地萌生出，<strong>既然 Github 是一個資工系大學生必用的工具，那何不也把我的部落格放在Github上呢</strong>的想法，因此，在多方嘗試與學習後，我在Github上的部落格網站正式誕生！<br></p>
+<p>這麼做的原因，一方面是想給自己一個重新來過的機會，另一方面是不想在每年花錢，給自己無謂的壓力了。這個部落格的主旨和原本的網站一樣，為即將升上大學的莘莘學子們，提供有建設性、且實際嘗試過的建議與想法，也希望自己能夠本著寫部落格的初心—分享自己的經驗並幫助更多人，寫出更多高品質的文章。<br></p>
+<p>在這裡，我期許自己能夠真正為了寫出高品質的文章而努力，也希望自己的文章能夠真正幫助更多有需要的人。<br></p>
 ]]></content>
   </entry>
 </search>
