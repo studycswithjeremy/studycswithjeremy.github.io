@@ -127,4 +127,67 @@
         <tag>資料科學</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Microsoft AZ-900 準備與考照心得分享</title>
+    <url>/2023/05/09/az900/</url>
+    <content><![CDATA[<h1 id="考試動機"><a href="#考試動機" class="headerlink" title="考試動機"></a>考試動機</h1><p>我目前是位就讀資工系的大三學生，在校期間已經參加過校內外競賽、社團經歷也具備了，但如果希望自己的履歷在未來書審、求職面試能更令人眼睛為之一亮。我認為擁有幾張國際證照可能多少對此會有加分，最近又剛好在臉書看到Microsoft Azure 證照的相關資訊，因此想說試試看，說不定自己也能在大學四年內考到幾張證照。</p>
+<h1 id="AZ-900-介紹"><a href="#AZ-900-介紹" class="headerlink" title="AZ-900 介紹"></a>AZ-900 介紹</h1><p>AZ-900全名是 <strong>Microsoft Certified: Azure Fundamentals</strong>。 Azure是微軟開發的公有雲服務，而AZ-900是測驗考生對於Azure服務有基本的認識與操作能力。<br>這張證照的目標在於掌握雲端基礎架構，並且理解雲端優勢與基本概念，是一張入門等級的證照，需要入門且完整的雲端知識。<br>雖說它是Azure服務的敲門磚，但其實準備起來還是需要花點心力。因為是考對於Azure的認識，所以它的考試內容「非常廣」，需要對Azure的所有服務有初步認識。<br>AZ-900認證會不定期更改考試內容，目前的考試內容為：</p>
+<ul>
+<li>描述雲端概念 (25-30%)</li>
+<li>描述 Azure 架構與服務 (35-40%)</li>
+<li>描述 Azure 管理和治理 (30-35%)<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/az900/test.png"
+                      alt="AZ-900報名頁面"
+                ><br>AZ-900考試一次是75美金，折合台幣約2250元，在官方網站即可報名。報名時建議選擇Schedule with Pearson VUE。<br>AZ-900的考試滿分是1000分，只要考過700分即通過考試。考試考試題型有情境選擇題、是非題、配對題。</li>
+</ul>
+<h2 id="證照"><a href="#證照" class="headerlink" title="證照"></a>證照</h2><p>這張是我在今年四月初考到的證照。<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/az900/AZ900.png"
+                      alt="我的 AZ-900 認證" title="我的 AZ-900 認證"
+                ><br>證照上會顯示你報名時的英文姓名、認證名稱、日期以及認證的號碼。微軟的認證通過後，不會寄送紙本證照給你，而是會顯示在你的 Microsoft Learn帳號上。</p>
+<h1 id="準備方式"><a href="#準備方式" class="headerlink" title="準備方式"></a>準備方式</h1><p>準備AZ-900認證的方式大致上有以下3種：</p>
+<ul>
+<li>實體&#x2F;線上同步課程</li>
+<li>買斷型影片課程</li>
+<li>微軟的官方教材</li>
+</ul>
+<h2 id="實體-x2F-線上同步課程"><a href="#實體-x2F-線上同步課程" class="headerlink" title="實體&#x2F;線上同步課程"></a>實體&#x2F;線上同步課程</h2><p>坊間電腦補習班有許多認證考照班，課程由講師一步步帶領學員準備考試。這種方式適合對資訊方面沒有任何接觸的新手，但通常這些課程也所費不貲。</p>
+<h2 id="買斷型影片課程"><a href="#買斷型影片課程" class="headerlink" title="買斷型影片課程"></a>買斷型影片課程</h2><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/az900/coursera.png"
+                      alt="微軟在Coursera上的課程"
+                ><br>在雲端學習平台，如 Coursera、Udemy上有許多預錄好的影片課程，微軟在<a class="link"   href="https://www.coursera.org/specializations/microsoft-azure-fundamentals-az-900" >Coursera <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>平台上也有開設官方的準備課程。如果平時有自己額外從這些平台上學習的習慣，那不妨可以試試看。這些課程的費用通常也會比補習班的課程來得便宜。<br>額外一提，在Coursera上的微軟官方課程，上完後可以拿到AZ-900考試的50%折扣。</p>
+<h2 id="微軟的官方教材"><a href="#微軟的官方教材" class="headerlink" title="微軟的官方教材"></a>微軟的官方教材</h2><p>微軟的認證，其實在 <a class="link"   href="https://learn.microsoft.com/en-us/certifications/exams/az-900/" >Microsoft Learn <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 上都有一套設計好的學習路徑（Learning Path）與官方教材，上網搜尋AZ-900其實就找得到了。<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/az900/learning_path.png"
+                      alt="AZ-900學習路徑"
+                ><br>跟著這些學習路徑慢慢讀，其實對於考試內容就有約60%的理解了。剩下的40%要靠額外資料查詢和考古題練習。<br>我自己在準備AZ-900時，因為是初次嘗試考證照，所以其實選擇了第一種方法，上補習班的線上直播課程。但其實上課時，講師也只是將微軟官方學習路徑的內容run過一次，補充一些額外的知識並帶學員做一些考古題而已。<br>對於Azure服務有初步認識的讀者，我比較建議可以試著自己讀讀看微軟的官方教材，時間彈性又省錢。</p>
+<h2 id="考古題"><a href="#考古題" class="headerlink" title="考古題"></a>考古題</h2><p><strong>想要拿高分，怎麼能少了考古題的幫助呢？</strong><br>在這邊我要推薦一個考古題網站，<a class="link"   href="https://www.examtopics.com/exams/microsoft/az-900/" >ExamTopics <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>。這個網站上，幾乎所有IT考試都可以在這個網站上找到考古題。但美中不足的是，如果是免費版的使用者，只能看到一半的題目，而且由於微軟並沒有發布官方的考古題與答案，部分題目的答案有誤，但好在ExamTopics上的題目都有獨立的討論區，如果英文不錯，可以看看國外大神們的見解與看法，對於自身考試的內容也會有幫助。<br>當然，如果不信任免費版的，也可以上蝦皮或一些線上購物網站購買其他人在國外網站蒐集過來的題目。但其實AZ-900只是個入門證照，不會出現太過刁鑽或困難的題目。而且依據我的經驗，花錢買的題目和在網站上的免費題目有很大一部分是重疊的內容。有沒有必要額外花錢，就見仁見智。</p>
+<h1 id="考試流程"><a href="#考試流程" class="headerlink" title="考試流程"></a>考試流程</h1><p>AZ-900有兩種考試方式：</p>
+<ol>
+<li>在微軟配合的地點考試</li>
+<li>在自家考試</li>
+</ol>
+<p>我推薦在微軟配合的地點考試，一方面比較方便，設備、環境都幫你準備好了，另一方面，也比較不會遇到因為自家環境未達標準而造成的額外困擾。<br>在微軟的Microsoft Learn線上預約完考試時間與地點後，考試當天記得攜帶護照與另一張證件。當天建議早10分鐘到，可以讓自己心情平復一下，也可以拿出筆記複習。時間差不多後，會有人員協助你驗證身分等。驗證完成後，就可以把身上不能帶進考場的東西放在置物箱，手機、手錶、包包都不能帶進去。一切就緒後，就可以進入考場了。<br>所謂考場，其實就是一間單人小隔間，一張桌子、椅子和一台電腦。準備完成後就可以開始考試了。考試開始前，會有一份簡單的不計分問卷，問卷填完後就正式開始考試。每個人的考試時間與題目數都會有些差異，但時間絕對來得及讓你寫完。我記得我那時候是考42題，但我只花10分鐘就考完了，考試拿到895分。考試結束後，電腦螢幕上會馬上顯示你的分數以及你是否通過，看完後就可以離開了。你也會拿到一張考試內容個主題的指標。而最重要的證書，就在你的Microsoft Learn帳戶中的Certifications頁面。考完試並不會馬上出現在上面，而是要等1~3小時，會收到恭喜你通過考試的郵件。<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/az900/pass.png"
+                      alt="Certifications頁面"
+                ></p>
+<h1 id="總結"><a href="#總結" class="headerlink" title="總結"></a>總結</h1><p>AZ-900的認證其實並不會太難，適合初學者和枚使用過Azure服務的人去考。考試也建議選擇英文去考，一方面考古題幾乎都是英文的，考試時比較不會出現翻譯問題；另一方面也可以驗證看看自己的英文閱讀能力。預祝大家能夠順利通過考試！</p>
+]]></content>
+      <categories>
+        <category>認證</category>
+      </categories>
+      <tags>
+        <tag>認證</tag>
+        <tag>資工</tag>
+        <tag>微軟</tag>
+      </tags>
+  </entry>
 </search>
