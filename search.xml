@@ -3,7 +3,7 @@
   <entry>
     <title>Hello World!</title>
     <url>/2023/05/08/hello-world/</url>
-    <content><![CDATA[<h1 id="關於這個部落格"><a href="#關於這個部落格" class="headerlink" title="關於這個部落格"></a>關於這個部落格</h1><p>歡迎來到 <strong>Study with Jeremy | 傑洛米的學習手札</strong>。<br><br>我是Jeremy，一名資工系大三學生。 <br></p>
+    <content><![CDATA[<h1 id="關於這個部落格"><a href="#關於這個部落格" class="headerlink" title="關於這個部落格"></a>關於這個部落格</h1><p>歡迎來到 <strong>Study CS with Jeremy | JH的資工學習手札</strong>。<br><br>我是Jeremy，一名資工系大三學生。 <br></p>
 <p>2021年8月，那時正值我高中畢業，等待上大學的暑期空檔，因此我嘗試找出能夠賺取被動收入的管道。最初嘗試了問卷調查，填寫問卷就可以賺取少量報酬，日積月累，每天填寫2、3分問卷，一個月也賺了500元。那是我第一次從網路上賺錢的經驗。<br></p>
 <p>但是，畢竟填寫問卷不算被動，因此我開始尋求真正的「被動收入」。不知不覺地，就產生了想開始寫部落格的想法。在發想部落格主題時，我左思右想，自己到底有什麼能夠寫出來，並且有人在乎的呢？想了想，身為學生本業的我，是不是可以將自己一路到大學的學習經驗寫出來，提供學弟妹經驗分享。因此，我開始了我的第一個網站《Study with Jeremy | 傑洛米的學習手札》的部落格站長生涯。我花了許多心思和金錢在這個網站上。除了主機的租借和網域租借費用，因為一次訂閱3年，所以就花了快5000元。那時候也是手一掐才點下購買鍵。<br></p>
 <p><img  
@@ -15,11 +15,11 @@
 <p>網站正式架好後，我便開始著手設計網站 Logo，也就是上方的這個圖片。其實我個人十分滿意這個設計，我覺得它同時具備簡約和典雅。<br></p>
 <p>最初的目的是想要賺取被動收入，因此在最剛開始時，就算每天只有0.01~0.1元，我也覺得很開心，這些數據也成為我持續寫下去的動力。<br></p>
 <p>但寫著寫著，我發現自己越來越過度在乎流量，甚至會為了流量，想方設法寫一些自己根本不沒興趣，但是卻在Google Trend上的熱門關鍵字相關文章。漸漸地，我寫文章的興致與動力變越來越小。<br></p>
-<p>其實從2021年寫到現在，我實際上收到的錢是0元。沒錯，沒賺錢就算了，還沒辦法回本。我認為這跟我沒有持續寫文章也有極大的關聯性。有時候我一個月可以產出5篇文章，但有的時候比較忙，可能隔2個月才寫出一篇文章。頂著每年都需要持續花錢租主機和網域費用的壓力（也不是付不出來，但就是不想花費無謂的費用），我漸漸地萌生出，<strong>既然 Github 是一個資工系大學生必用的工具，那何不也把我的部落格放在Github上呢</strong>的想法，因此，在多方嘗試與學習後，我在Github上的部落格網站正式誕生！<br></p>
-<p>這麼做的原因，一方面是想給自己一個重新來過的機會，另一方面是不想在每年花錢，給自己無謂的壓力了。這個部落格的主旨和原本的網站一樣，為即將升上大學的莘莘學子們，提供有建設性、且實際嘗試過的建議與想法，也希望自己能夠本著寫部落格的初心—分享自己的經驗並幫助更多人，寫出更多高品質的文章。<br></p>
+<p>其實從2021年寫到現在，我實際上收到的錢是0元。沒錯，沒賺錢就算了，還沒辦法回本。我認為這跟我沒有持續寫文章也有極大的關聯性。有時候我一個月可以產出5篇文章，但有的時候比較忙，可能隔2個月才寫出一篇文章。頂著每年都需要持續花錢租主機和網域費用的壓力（也不是付不出來，但就是不想花費無謂的費用），我漸漸地萌生出，<strong>既然 Github 是一個資工系大學生必用的工具，那何不也把我的部落格放在Github上呢</strong>的想法，因此，在多方嘗試與學習後，我的第一個在Github上的部落格網站正式誕生！<br></p>
+<p>這麼做的原因，一方面是想以另一個部落格子品牌給自己一個重新來過的機會，另一方面是不想在每年花錢，給自己無謂的壓力了。這個部落格的主旨和原本的網站一樣，為即將升上大學的莘莘學子們，提供有建設性、且實際嘗試過的建議與想法，也希望自己能夠本著寫部落格的初心—分享自己的經驗並幫助更多人，寫出更多高品質的文章。<br></p>
 <p>在這裡，我期許自己能夠真正為了寫出高品質的文章而努力，也希望自己的文章能夠真正幫助更多有需要的人。<br></p>
 <h1 id="電子報"><a href="#電子報" class="headerlink" title="電子報"></a>電子報</h1><p>如果對於大學生活、資工領域有興趣，歡迎填寫以下表單訂閱電子報。放心，我不會記垃圾信件給你。</p>
-<div class="note note-success icon-padding"><i class="note-icon fa-solid fa-check-circle"></i><p><a class="link"   href="https://forms.gle/UZmdYxK6DD6topT56" >訂閱電子報 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<div class="note note-success icon-padding"><i class="note-icon fa-solid fa-check-circle"></i><p><a class="link"   href="https://forms.gle/gHXSVgZX22fgLLmg9" >訂閱電子報 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 </div>
 ]]></content>
       <categories>
@@ -119,7 +119,7 @@
 </ul>
 <h1 id="總結"><a href="#總結" class="headerlink" title="總結"></a>總結</h1><p>這堂課是我在Coursera平台上的第一堂課。老實說，我對這堂課的評價很高！雖然是入門課，但隨著課程進展，內容也會隨著加深，像是SQL語法，甚至教了一些學校沒教過的語法。這堂課中，你可以學到許多Spreadsheet函數、SQL語法、R語法及資料視覺化的工具。總言之，如果你對資料分析有興趣，想試試看的話，這系列的課程絕對是值得你一試的敲門磚。加油~~</p>
 <h1 id="訂閱電子報"><a href="#訂閱電子報" class="headerlink" title="訂閱電子報"></a>訂閱電子報</h1><p>如果對於這篇文章的相關內容有興趣，歡迎填寫以下表單訂閱電子報，以獲得更多相關資訊。放心，我不會記垃圾信件給你。</p>
-<div class="note note-success icon-padding"><i class="note-icon fa-solid fa-check-circle"></i><p><a class="link"   href="https://forms.gle/UZmdYxK6DD6topT56" >訂閱電子報 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<div class="note note-success icon-padding"><i class="note-icon fa-solid fa-check-circle"></i><p><a class="link"   href="https://forms.gle/gHXSVgZX22fgLLmg9" >訂閱電子報 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 </div>
 ]]></content>
       <categories>
@@ -141,7 +141,7 @@
 <ul>
 <li>描述雲端概念 (25-30%)</li>
 <li>描述 Azure 架構與服務 (35-40%)</li>
-<li>描述 Azure 管理和治理 (30-35%)</li>
+<li>描述 Azure 管理和治理 (30-35%)<br>AZ-900考試的內容會隨時做變更，考前記得一定要上微軟官網再確認。</li>
 </ul>
 <p><img  
                      lazyload
@@ -192,9 +192,9 @@
 <h1 id="筆記分享"><a href="#筆記分享" class="headerlink" title="筆記分享"></a>筆記分享</h1><p>下面的連結是我在上課和自己複習、練考古題時寫的筆記，希望能對正在準備AZ-900的讀者能有些幫助。</p>
 <div class="note note-success icon-padding"><i class="note-icon fa-solid fa-check-circle"></i><p><a class="link"   href="https://smart-ricotta-fe9.notion.site/AZ-900-0df864d19ac943ac90ed155a856850dc" >Notion筆記連結 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 </div>
-<h1 id="總結"><a href="#總結" class="headerlink" title="總結"></a>總結</h1><p>AZ-900的認證其實並不會太難，適合初學者和枚使用過Azure服務的人去考。考試也建議選擇英文去考，一方面考古題幾乎都是英文的，考試時比較不會出現翻譯問題；另一方面也可以驗證看看自己的英文閱讀能力。預祝大家能夠順利通過考試！</p>
+<h1 id="總結"><a href="#總結" class="headerlink" title="總結"></a>總結</h1><p>AZ-900的認證其實並不會太難，適合初學者和沒有使用過Azure服務的人去考。考試也建議選擇英文去考，一方面考古題幾乎都是英文的，考試時比較不會出現翻譯問題；另一方面也可以驗證看看自己的英文閱讀能力。預祝大家能夠順利通過考試！</p>
 <h1 id="訂閱電子報"><a href="#訂閱電子報" class="headerlink" title="訂閱電子報"></a>訂閱電子報</h1><p>如果對於這篇文章的相關內容有興趣，歡迎填寫以下表單訂閱電子報，以獲得更多相關資訊。放心，我不會記垃圾信件給你。</p>
-<div class="note note-success icon-padding"><i class="note-icon fa-solid fa-check-circle"></i><p><a class="link"   href="https://forms.gle/UZmdYxK6DD6topT56" >訂閱電子報 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<div class="note note-success icon-padding"><i class="note-icon fa-solid fa-check-circle"></i><p><a class="link"   href="https://forms.gle/gHXSVgZX22fgLLmg9" >訂閱電子報 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 </div>]]></content>
       <categories>
         <category>認證</category>
@@ -203,6 +203,44 @@
         <tag>認證</tag>
         <tag>資工</tag>
         <tag>微軟</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>為什麼我會選Github作為部落格平台</title>
+    <url>/2023/05/11/github/</url>
+    <content><![CDATA[<h1 id="部落格前身"><a href="#部落格前身" class="headerlink" title="部落格前身"></a>部落格前身</h1><p>早在2年多前（2021年），我就已經開始以 「<strong>Study With Jeremy | 傑洛米的學習手札</strong>」這個品牌經營我的部落格。最剛開始，我在 Pixnet痞客邦這個免費部落格平台撰寫文章。但過沒多久，卻發現痞客邦上的閱讀體驗十分差勁，充滿了難以控制的廣告。我之後不斷嘗試了許多不同平台，如 Wordpress、Medium、Vocus等等，最後決定要自己購買主機，購買網域名稱（studywithjeremy.com），以自架網站的方式，搭配 Wordpress 建構我的網站。但主機和網域都是訂閱制的，每年都會有一定的開銷，對於我而言，這筆開銷其實是可有可無，而且不論費用多寡，只要知道自己每年都需要付錢，文章寫起來就充滿壓力。<br>這個品牌在自架網站上經營了約3年後，近期打算再開設一個資工系專屬的部落格網誌，又剛好在資工系的專題中有用到 Github 服務，得知每一個 Github 帳號可以以 github.io 的網域價一個網站，因此我決定開始使用 Github上 的服務。</p>
+<h1 id="為什麼選擇-Github？"><a href="#為什麼選擇-Github？" class="headerlink" title="為什麼選擇 Github？"></a>為什麼選擇 Github？</h1><p>綜觀網路上各種部落格平台比較的文章與分析，基本上沒有人會把 Github 作為考量的選項之一。<br>其中的原因不外乎是因為 Github 充其量只是一個讓你放程式，並且能夠 Host你的程式的主機，其餘的程式內容還是需要使用者自己設計，這對於一般沒有程式經驗的人有著較高的技術門檻。<br>但其實在 Github 上架網站的好處滿多的，其中最吸引我的是</p>
+<div class="note note-success icon-padding"><i class="note-icon fa-solid fa-check-circle"></i><p>主機完全免費呀！</p>
+</div>
+<p>你沒有聽錯，真的是完全免費！<br>另外，用過Wordpress 的讀者就會發現，雖然平台提供很多部落格主題可以套用，但這些主題不是沒有可以讓你完全自訂部落格外觀的選項，不然就是要付費額外解鎖更多自訂功能。對於愛好自由的我，這樣綁手綁腳的怎麼會是可以接受的呢？在 Github 上，你需要做的，就是找到一個你喜歡的主題，將程式碼放上去。想改哪邊就改哪邊，自由度超高。當然，前提是你要看得懂這些程式碼。<br>以列點的方式說明，在 Github 上架網站有以下的好處：</p>
+<ol>
+<li>完全免費。就像前面說過的，主機費用為0，網域費用為0（如果你使用預設的 username.github.io），流量和上線時間也都沒有限制。也不會有原生的廣告。就是完全免費、免費、免費！</li>
+<li>安全性與隱私高。通常在 Wordpress上架網站，我們都會額外下載安全性相關的 plugin，也會時不時就備份一下資料。Github 是微軟的服務之一，而微軟身為全世界最大的網路服務供應商，安全與上線時間基本上都是最佳的。</li>
+<li>可以直接套用主題。這算是優點嗎？若真要比主題， Wordpress的主題更多、更豐富，但 Github 的主題絕對才是自訂性最高的一個。哪邊的字體要變大、哪邊的圖片要置中（css的置中真的是一門學問…）等等的設定，只要你找的到，都可以改成自己理想中的樣子。</li>
+<li>自訂性高。同上點所述，想改什麼都可以改，但這點指的自訂性，是指說整個網頁的架構和網站上的所有檔案，你都有權限可以修改。自訂性高到一個極致！</li>
+<li>一個好的學習環境。好的學習，首先需要有學習動機。而當你的 Github 部落格顯示錯誤，或出現任何問題，你會你力去排除問題。ㄟ，正好，學習動機有了，相信在架設部落格的過程中，每個人都可以學到更多知識與技能！<br>然而，在 Github 上架網站有著眾多好處，當然也會有它的短處。</li>
+</ol>
+<h1 id="在-Github-上架網站的缺點"><a href="#在-Github-上架網站的缺點" class="headerlink" title="在 Github 上架網站的缺點"></a>在 Github 上架網站的缺點</h1><ol>
+<li>只能架設靜態網站。缺點之一，就是你只能架<strong>靜態網站</strong>。在 Wordpress上，你可以增加各種動態的 WP外掛，但在 Github 上的網站，只能是預先由HTML生成的內容。其實這也不算是種限制，就是呈現的方式不同。但如果足夠有信心，在Github 上的網站看起來絕對不比 WP上的遜色。</li>
+<li>樣樣自己來。Github 僅提供網站託管平台。網站裡頭的程式碼、內容等等的你都得自己生成，看是要套用 theme也好，自己純手工雕也好，但總是需要你自己來完成。Theme的更新等等的，也得由你手動完成它（這時候就別指望 Github Copilot了）。</li>
+<li>SEO，靠自己。談到SEO，這時候你就會懷念 WP上的一堆SEO Plugin，簡單點一點，下載安裝，你的網頁流量就會增加。但在 Github 上沒這種好事，文章標題、分類、標籤、縮圖連結等等的都需要自己來做。以下也提供我的文章都會做的 SEO。</li>
+</ol>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: </span><br><span class="line">date: </span><br><span class="line">tags:</span><br><span class="line">categories: </span><br><span class="line">thumbnail: </span><br><span class="line">excerpt: </span><br><span class="line">---</span><br></pre></td></tr></table></figure></div>
+<h1 id="Github適合那些人"><a href="#Github適合那些人" class="headerlink" title="Github適合那些人"></a>Github適合那些人</h1><p>說了這麼多，來總結一下 Github適合哪些人用來架部落格吧。</p>
+<ol>
+<li>對於程式語言有基礎的人。畢竟還是要寫程式，如果沒有寫過程式，或是不想花時間寫程式的話，那建議可以用最主流的 Wordpress就好。但如果你對於寫程式滿腔熱忱，或是想試看看用程式寫出一個完整的網頁，那Github就非常適合你。</li>
+<li>不想花太多錢的人。Github上架設網站完全0費用，因此如果你只想把部落格當興趣，偶爾寫寫，不想產生額外費用的話，那可以試試看 Github。</li>
+<li>不怕麻煩，熱衷於學習的人。資工這條路，能走多遠、走多廣全看你的學習態度與學習量。而在 Github上架網站的這個過程中，你將會有許多機會學習。如果你不怕麻煩，那不妨可以試試看。<br>有任何問題的話，都可以在留言處留言，我會盡力幫助你~</li>
+</ol>
+<h1 id="訂閱電子報"><a href="#訂閱電子報" class="headerlink" title="訂閱電子報"></a>訂閱電子報</h1><p>如果對於這篇文章的相關內容有興趣，歡迎填寫以下表單訂閱電子報，以獲得更多相關資訊。放心，我不會記垃圾信件給你。</p>
+<div class="note note-success icon-padding"><i class="note-icon fa-solid fa-check-circle"></i><p><a class="link"   href="https://forms.gle/gHXSVgZX22fgLLmg9" >訂閱電子報 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</div>]]></content>
+      <categories>
+        <category>部落格</category>
+      </categories>
+      <tags>
+        <tag>部落格</tag>
+        <tag>Github</tag>
       </tags>
   </entry>
 </search>
