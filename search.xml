@@ -207,7 +207,7 @@
   </entry>
   <entry>
     <title>為什麼我會選Github作為部落格平台</title>
-    <url>/2023/05/11/github/</url>
+    <url>/2023/05/13/github/</url>
     <content><![CDATA[<h1 id="部落格前身"><a href="#部落格前身" class="headerlink" title="部落格前身"></a>部落格前身</h1><p>早在2年多前（2021年），我就已經開始以 「<strong>Study With Jeremy | 傑洛米的學習手札</strong>」這個品牌經營我的部落格。最剛開始，我在 Pixnet痞客邦這個免費部落格平台撰寫文章。但過沒多久，卻發現痞客邦上的閱讀體驗十分差勁，充滿了難以控制的廣告。我之後不斷嘗試了許多不同平台，如 Wordpress、Medium、Vocus等等，最後決定要自己購買主機，購買網域名稱（studywithjeremy.com），以自架網站的方式，搭配 Wordpress 建構我的網站。但主機和網域都是訂閱制的，每年都會有一定的開銷，對於我而言，這筆開銷其實是可有可無，而且不論費用多寡，只要知道自己每年都需要付錢，文章寫起來就充滿壓力。<br>這個品牌在自架網站上經營了約3年後，近期打算再開設一個資工系專屬的部落格網誌，又剛好在資工系的專題中有用到 Github 服務，得知每一個 Github 帳號可以以 github.io 的網域價一個網站，因此我決定開始使用 Github上 的服務。</p>
 <h1 id="為什麼選擇-Github？"><a href="#為什麼選擇-Github？" class="headerlink" title="為什麼選擇 Github？"></a>為什麼選擇 Github？</h1><p>綜觀網路上各種部落格平台比較的文章與分析，基本上沒有人會把 Github 作為考量的選項之一。<br>其中的原因不外乎是因為 Github 充其量只是一個讓你放程式，並且能夠 Host你的程式的主機，其餘的程式內容還是需要使用者自己設計，這對於一般沒有程式經驗的人有著較高的技術門檻。<br>但其實在 Github 上架網站的好處滿多的，其中最吸引我的是</p>
 <div class="note note-success icon-padding"><i class="note-icon fa-solid fa-check-circle"></i><p>主機完全免費呀！</p>
@@ -241,6 +241,62 @@
       <tags>
         <tag>部落格</tag>
         <tag>Github</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown 語法學習筆記彙整</title>
+    <url>/2023/05/14/markdown-note/</url>
+    <content><![CDATA[<h1 id="Markdown-簡介"><a href="#Markdown-簡介" class="headerlink" title="Markdown 簡介"></a>Markdown 簡介</h1><p>Markdown 是一種輕量級的標記語言，最初由 John Gruber 和 Aaron Swartz 在 2004 年設計，旨在讓人們以易讀易寫的方式撰寫文件。Markdown 不但易於學習和使用，還可以通過簡單的文本編輯器就能生成豐富文本格式的文件。因此，它在撰寫部落格、文件、閱讀筆記等場景中被廣泛應用。本部落格的文章也全是以 Markdown 語法撰寫而成。<br>但由於筆者是初次接觸 MD（除了有幾次在寫 Github readme 時有稍微用過外），需要時常上網查詢語法，因此想說不如自己就來寫一篇 MD 語法的筆記，用來記錄一些常使用到的 MD 語法。</p>
+<h1 id="Markdown-語法彙整"><a href="#Markdown-語法彙整" class="headerlink" title="Markdown 語法彙整"></a>Markdown 語法彙整</h1><h2 id="標題與字體大小"><a href="#標題與字體大小" class="headerlink" title="標題與字體大小"></a>標題與字體大小</h2><p>用 1 ~ 6 個 <code>#</code> 區分 h1 ~ h6， <code>#</code>數量越多標題越小。<code>#</code>與文字間需要一個空格</p>
+<h3 id="h3"><a href="#h3" class="headerlink" title="h3"></a>h3</h3><h4 id="h4"><a href="#h4" class="headerlink" title="h4"></a>h4</h4><h5 id="h5"><a href="#h5" class="headerlink" title="h5"></a>h5</h5><h6 id="h6"><a href="#h6" class="headerlink" title="h6"></a>h6</h6><h2 id="字體效果"><a href="#字體效果" class="headerlink" title="字體效果"></a>字體效果</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">*斜體字*</span><br><span class="line">**粗體字**</span><br><span class="line">***斜體兼粗體***</span><br><span class="line">++底線++</span><br><span class="line">==螢光標記==</span><br></pre></td></tr></table></figure></div>
+<p>效果會長這樣：<br><em>斜體字</em><br><strong>粗體字</strong><br><em><strong>斜體兼粗體</strong></em><br>++底線++<br>&#x3D;&#x3D;螢光標記&#x3D;&#x3D;</p>
+<h2 id="區塊引言"><a href="#區塊引言" class="headerlink" title="區塊引言"></a>區塊引言</h2><p>可以在段落、標題前輸入 <code>&gt;</code>，可以產生區塊的效果。</p>
+<blockquote>
+<p>就像是這樣。</p>
+</blockquote>
+<h2 id="清單列點"><a href="#清單列點" class="headerlink" title="清單列點"></a>清單列點</h2><p>若要產生列點的效果，可以在清單的每個點前加入 <code>*</code>、<code>+</code>、<code>-</code> 符號，即會在每行前面出現小黑點。</p>
+<ul>
+<li>第一點</li>
+<li>第二點</li>
+<li>第三點<br>若是需要以數字列點，則直接在每行前面加入數字 + .，如 <code>1.</code> 即可。</li>
+</ul>
+<ol>
+<li>第一點</li>
+<li>第二點</li>
+<li>第三點</li>
+</ol>
+<h2 id="Checkbox"><a href="#Checkbox" class="headerlink" title="Checkbox"></a>Checkbox</h2><p>Checkbox 語法為 <code>- [ ] uncheck 以及 - [x] check </code></p>
+<ul>
+<li><input disabled="" type="checkbox"> uncheck </li>
+<li><input checked="" disabled="" type="checkbox"> check</li>
+</ul>
+<h2 id="超連結"><a href="#超連結" class="headerlink" title="超連結"></a>超連結</h2><p>超連結的語法是 <code>[連結名稱](連結網址 &quot;游標顯示的文字&quot;)</code><br><a href="studycswithjeremy.github.io" title="連結在這裡">JH的資工學習手札</a></p>
+<h2 id="圖片顯示"><a href="#圖片顯示" class="headerlink" title="圖片顯示"></a>圖片顯示</h2><p>圖片顯示的語法和超連結很相似，<code>![圖片名稱](連結 &quot;游標顯示的文字&quot;)</code>，圖片連結盡量寫相對路徑。<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/swj_logo.jpeg"
+                      alt="SWJ 的 Logo" title="圖片在這裡"
+                ><br>若是要直接插入網路上的圖片，則可以使用<code>![圖片](圖片網址)</code>。<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://miro.medium.com/v2/resize:fit:1024/0*4ty0Adbdg4dsVBo3.png"
+                      alt="圖片"
+                ></p>
+<h2 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼"></a>程式碼</h2><p>若要產生程式碼區塊，可以使用 <code>``` 程式類型 （換行）程式碼 ```</code>，例如<br><code>``` python （換行）print(&quot;Hello World&quot;) ```</code><br>可以產生以下效果。</p>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Hello World&quot;</span>)</span><br></pre></td></tr></table></figure></div>
+<h2 id="分隔線"><a href="#分隔線" class="headerlink" title="分隔線"></a>分隔線</h2><p>分隔線可以以 <code>---</code> 產生。<br>如：</p>
+<hr>
+<h1 id="總結"><a href="#總結" class="headerlink" title="總結"></a>總結</h1><p>Markdown 語法的彙整目前就寫到這樣，這些主要是自己在使用時常用到的語法筆記，之後會用到那些語法再更新到這篇吧。</p>
+<h1 id="訂閱電子報"><a href="#訂閱電子報" class="headerlink" title="訂閱電子報"></a>訂閱電子報</h1><p>如果對於這篇文章的相關內容有興趣，歡迎填寫以下表單訂閱電子報，以獲得更多相關資訊。放心，我不會記垃圾信件給你。</p>
+<div class="note note-success icon-padding"><i class="note-icon fa-solid fa-check-circle"></i><p><a class="link"   href="https://forms.gle/gHXSVgZX22fgLLmg9" >訂閱電子報 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</div>]]></content>
+      <categories>
+        <category>程式語言</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+        <tag>程式語言</tag>
+        <tag>學習筆記</tag>
       </tags>
   </entry>
 </search>
